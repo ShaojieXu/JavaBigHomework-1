@@ -31,16 +31,24 @@ public class Windows {
         loginButton.setBounds(120, 185, 100, 25);
         panel.add(loginButton);
 
+
+
         JButton loginButton1 = new JButton("Prim算法演示");
         loginButton1.setBounds(320, 100, 150, 25);
         panel.add(loginButton1);
+
+
 
         JButton loginButton2 = new JButton("Kruskal算法演示");
         loginButton2.setBounds(320, 130, 150, 25);
         panel.add(loginButton2);
 
+        ////555
+
         JButton loginButton3 = new JButton("关于我们");
         loginButton3.setBounds(320, 160, 150, 25);
+
+
         loginButton3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -58,6 +66,8 @@ public class Windows {
 
         JButton loginButton4 = new JButton("离开我们");
         loginButton4.setBounds(320, 190, 150, 25);
+
+
         loginButton4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
