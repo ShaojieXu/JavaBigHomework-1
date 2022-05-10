@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class Windows {
     JFrame jf;
     //algorithm al;
-
+    //1111111
     void placeComponents(JPanel panel){
         panel.setLayout(null);
 
